@@ -14,7 +14,7 @@ portfolio-rpg/
 │   │   ├── utils/loadModel.js          # carrega .glb OU desenha placeholder
 │   │   └── data/locations.json         # fallback local (mesmo shape da API)
 │   └── public/models/                  # coloque os .glb aqui
-└── backend/                   # Java 17 + Spring Boot
+└── backend/                   # Java 25 + Spring Boot
     └── src/main/java/com/ricardo/portfolio/
         ├── PortfolioApplication.java
         └── LocationController.java     # GET /api/locations
@@ -22,7 +22,7 @@ portfolio-rpg/
 
 ## Como rodar
 
-### Backend (Java 17 + Maven)
+### Backend (Java 25 + Maven)
 ```bash
 cd backend
 mvn spring-boot:run
