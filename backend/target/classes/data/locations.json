@@ -1,0 +1,118 @@
+{
+  "locations": [
+    {
+      "id": "itb-unip",
+      "name": "ITB / UNIP",
+      "type": "school",
+      "position": { "x": -8, "z": 6 },
+      "footprint": { "width": 4, "depth": 3 },
+      "color": "#8b5cf6",
+      "model": "school.glb",
+      "npcs": [
+        {
+          "id": "professor",
+          "name": "Professor",
+          "position": { "x": -8, "z": 5 },
+          "model": "npc_professor.glb",
+          "dialog": [
+            "Aqui o Ricardo evoluiu de Eletrônica Básica até a graduação em Análise e Desenvolvimento de Sistemas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bgh",
+      "name": "BGH",
+      "type": "job",
+      "position": { "x": -6, "z": -4 },
+      "footprint": { "width": 3, "depth": 3 },
+      "color": "#3b82f6",
+      "model": "workshop.glb",
+      "npcs": [
+        {
+          "id": "bgh-tech",
+          "name": "Técnico BGH",
+          "position": { "x": -6, "z": -3 },
+          "model": "npc_technician.glb",
+          "dialog": [
+            "Aqui eu diagnosticava defeitos em placas-mãe e gerenciava orçamentos de reparo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jj-solucoes",
+      "name": "JJ Soluções",
+      "type": "job",
+      "position": { "x": -2, "z": -6 },
+      "footprint": { "width": 3, "depth": 3 },
+      "color": "#3b82f6",
+      "model": "workshop.glb",
+      "npcs": [
+        {
+          "id": "jj-tech",
+          "name": "Técnico JJ",
+          "position": { "x": -2, "z": -5 },
+          "model": "npc_technician.glb",
+          "dialog": ["Trocando telas e componentes, ressuscitando hardwares condenados."]
+        }
+      ]
+    },
+    {
+      "id": "foxconn",
+      "name": "Foxconn",
+      "type": "job",
+      "position": { "x": 3, "z": -6 },
+      "footprint": { "width": 4, "depth": 3 },
+      "color": "#f59e0b",
+      "model": "factory.glb",
+      "npcs": [
+        {
+          "id": "foxconn-tech",
+          "name": "Técnico Foxconn",
+          "position": { "x": 3, "z": -5 },
+          "model": "npc_technician.glb",
+          "dialog": ["Reparo em linha de produção e controle de qualidade."]
+        }
+      ]
+    },
+    {
+      "id": "jabil",
+      "name": "Jabil",
+      "type": "job",
+      "position": { "x": 7, "z": -4 },
+      "footprint": { "width": 4, "depth": 3 },
+      "color": "#f59e0b",
+      "model": "factory.glb",
+      "npcs": [
+        {
+          "id": "jabil-tech",
+          "name": "Técnico Jabil",
+          "position": { "x": 7, "z": -3 },
+          "model": "npc_technician.glb",
+          "dialog": ["Diagnóstico e reparo de dispositivos móveis em larga escala."]
+        }
+      ]
+    },
+    {
+      "id": "cns",
+      "name": "Centro Nacional de Serviços",
+      "type": "job",
+      "position": { "x": 0, "z": 6 },
+      "footprint": { "width": 5, "depth": 4 },
+      "color": "#10b981",
+      "model": "office.glb",
+      "npcs": [
+        {
+          "id": "cns-analyst",
+          "name": "Analista CNS",
+          "position": { "x": 0, "z": 7 },
+          "model": "npc_developer.glb",
+          "dialog": [
+            "Aqui eu desenvolvia sistemas, cuidava de segurança da informação e automação."
+          ]
+        }
+      ]
+    }
+  ]
+}
