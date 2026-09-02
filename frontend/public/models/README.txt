@@ -1,7 +1,7 @@
 Coloque aqui os arquivos .glb dos prédios e NPCs.
 
 Nomes esperados (definidos em src/data/locations.json ou vindos do backend):
-  - school.glb
+  -- school.glb
   - workshop.glb
   - factory.glb
   - office.glb
