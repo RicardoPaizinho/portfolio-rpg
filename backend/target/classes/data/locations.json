@@ -28,8 +28,11 @@
       "footprint": { "width": 3, "depth": 3 },
       "color": "#3b82f6",
       "model": "workshop.glb",
+<<<<<<< Updated upstream
       "scale": 1.2,
       "offsetY": 0,
+=======
+>>>>>>> Stashed changes
       "npcs": [
         {
           "id": "bgh-tech",
