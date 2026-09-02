@@ -29,7 +29,7 @@
       "color": "#3b82f6",
       "model": "workshop.glb",
       "scale": 3.6,
-      "offsetY": 4,
+      "offsetY": 2,
       "npcs": [
         {
           "id": "bgh-tech",
