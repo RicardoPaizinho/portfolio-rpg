@@ -119,7 +119,8 @@ async function buildWorld(data) {
       color: loc.color,
       footprint: loc.footprint,
     })
-    house.position.set(loc.position.x, 0, loc.position.z)
+    house.position.set(loc.position.x, loc.offsetY ?? 0, loc.position.z)
+    if (loc.scale) house.scale.setScalar(loc.scale)
     scene.add(house)
     interactables.push({ mesh: house, name: loc.name, dialog: [`Você está em: ${loc.name}`] })
 
@@ -131,7 +132,8 @@ async function buildWorld(data) {
         color: '#94a3b8',
         footprint: { width: 0.9, depth: 0.9 },
       })
-      npcObj.position.set(npc.position.x, 0, npc.position.z)
+      npcObj.position.set(npc.position.x, npc.offsetY ?? 0, npc.position.z)
+      if (npc.scale) npcObj.scale.setScalar(npc.scale)
       scene.add(npcObj)
       interactables.push({ mesh: npcObj, name: npc.name, dialog: npc.dialog })
     }
