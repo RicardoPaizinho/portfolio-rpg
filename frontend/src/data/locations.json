@@ -28,13 +28,13 @@
       "footprint": { "width": 3, "depth": 3 },
       "color": "#3b82f6",
       "model": "workshop.glb",
-      "scale": 1.6,
+      "scale": 2.6,
       "offsetY": 0,
       "npcs": [
         {
           "id": "bgh-tech",
           "name": "Técnico BGH",
-          "position": { "x": -6, "z": -3 },
+          "position": { "x": -6, "z": -13 },
           "model": "npc_technician.glb",
           "dialog": [
             "Aqui eu diagnosticava defeitos em placas-mãe e gerenciava orçamentos de reparo."
